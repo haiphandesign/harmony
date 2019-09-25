@@ -48,12 +48,12 @@
     }
 
     .message-body {
+        @include content;
+
         width: 100%;
 
         padding: .75rem 1rem 1rem;
         @include radius;
-
-        @include content;
 
         &:only-child {
             padding: 1rem;

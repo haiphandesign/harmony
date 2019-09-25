@@ -1,4 +1,4 @@
-@mixin container {
+.container {
     position: relative;
 
     width: 100%;
@@ -53,8 +53,4 @@
             grid-template-columns: 5fr 2fr;
         }
     }
-}
-
-.container {
-    @include container;
 }
