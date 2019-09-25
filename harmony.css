@@ -1121,9 +1121,9 @@ h2,
 h3,
 h4,
 h5,
-h6,
-strong {
+h6 {
   font-weight: var(--font-weight-bold);
+  line-height: 1.25;
 }
 
 h1 {
@@ -1155,6 +1155,10 @@ hr {
   border: 1px solid currentColor;
   opacity: .75;
   border-width: 1px 0 0 0;
+}
+
+strong {
+  font-weight: var(--font-weight-bold);
 }
 
 .box {
