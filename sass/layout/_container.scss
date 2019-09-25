@@ -1,0 +1,60 @@
+@mixin container {
+    position: relative;
+
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+
+    @include breakpoint(sm) {
+        max-width: 740px;
+    }
+
+    @include breakpoint(md) {
+        max-width: 960px;
+    }
+
+    @include breakpoint(lg) {
+        max-width: 1140px;
+    }
+
+    &.is-small {
+        max-width: 740px;
+    }
+
+    &.is-medium {
+        max-width: 960px;
+    }
+
+    &.is-fluid {
+        max-width: unset;
+
+        @include breakpoint(sm) {
+            padding-right: 5vw;
+            padding-left: 5vw;
+        }
+    }
+
+    &.is-wide {
+        max-width: 2000px;
+
+        @include breakpoint(sm) {
+            padding-right: 5vw;
+            padding-left: 5vw;
+        }
+    }
+
+    &.is-duo {
+        display: grid;
+        grid-gap: 1rem;
+
+        @include breakpoint(md) {
+            grid-template-columns: 5fr 2fr;
+        }
+    }
+}
+
+.container {
+    @include container;
+}

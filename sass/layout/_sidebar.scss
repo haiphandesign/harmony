@@ -1,0 +1,9 @@
+.sidebar {
+    display: grid;
+    grid-gap: 1rem;
+
+    &.is-sticky {
+        position: sticky;
+        top: 1rem;
+    }
+}
