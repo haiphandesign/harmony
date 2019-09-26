@@ -1,6 +1,6 @@
 .columns {
     display: flex;
-    width: 100%;
+    width: calc(100% + var(--column-gap));
     margin: calc(0px - (var(--column-gap) / 2));
 
     &:not(.is-xs) {
