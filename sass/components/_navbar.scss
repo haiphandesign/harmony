@@ -25,7 +25,7 @@
             margin-left: -.75rem;
         }
 
-        @include breakpoint(sm) {
+        @include breakpoint(md) {
             height: var(--navbar-height);
         }
     }
@@ -34,7 +34,7 @@
         .container {
             height: var(--navbar-height-mobile-onscroll);
 
-            @include breakpoint(sm) {
+            @include breakpoint(md) {
                 height: var(--navbar-height-onscroll);
             }
         }
@@ -62,7 +62,7 @@
     display: none;
     align-items: center;
 
-    @include breakpoint(sm) {
+    @include breakpoint(md) {
         display: flex;
     }
 }
@@ -95,7 +95,7 @@
         height: 2.5rem;
         transition-duration: .25s;
 
-        @include breakpoint(sm) {
+        @include breakpoint(md) {
             height: 4rem;
         }
 
@@ -108,7 +108,7 @@
         height: 2.5rem;
         transition-duration: .25s;
 
-        @include breakpoint(sm) {
+        @include breakpoint(md) {
             height: 2.5rem;
         }
     }
@@ -134,7 +134,7 @@
         color: var(--navbar-link-hover);
     }
 
-    @include breakpoint(sm) {
+    @include breakpoint(md) {
         display: none;
     }
 
@@ -170,7 +170,7 @@
     top: 2em;
     right: 2em;
 
-    @include breakpoint(sm) {
+    @include breakpoint(md) {
         display: none;
     }
 }
@@ -178,13 +178,13 @@
 .navbar.is-scroll {
     .navbar-logo {
         .navbar-logo-image {
-            @include breakpoint(sm) {
+            @include breakpoint(md) {
                 height: 2.5rem;
             }
         }
 
         .navbar-logo-text {
-            @include breakpoint(sm) {
+            @include breakpoint(md) {
                 height: 1.5rem;
             }
         }

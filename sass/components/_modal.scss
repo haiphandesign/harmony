@@ -89,7 +89,7 @@
     grid-template-columns: 1fr;
     grid-gap: 1rem;
 
-    @include breakpoint(sm) {
+    @include breakpoint(md) {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -106,7 +106,7 @@
     }
 
     &.is-card {
-        @include breakpoint(sm) {
+        @include breakpoint(md) {
             grid-template-columns: auto 15rem;
         }
     }

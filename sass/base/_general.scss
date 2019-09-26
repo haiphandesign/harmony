@@ -3,7 +3,7 @@ html {
     overflow-x: hidden;
     box-sizing: border-box;
 
-    @include breakpoint(sm) {
+    @include breakpoint(md) {
         font-size: var(--font-size);
     }
 }
@@ -19,7 +19,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-stroke-width: 0.2px;
 
-    @include breakpoint(sm) {
+    @include breakpoint(md) {
         font-size: var(--font-size);
     }
 }

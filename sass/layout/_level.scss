@@ -4,7 +4,7 @@
     justify-content: space-between;
     flex-direction: column;
 
-    @include breakpoint(sm) {
+    @include breakpoint(md) {
         flex-direction: row;
     }
 
@@ -13,7 +13,7 @@
             order: 1;
             margin-top: 1rem;
 
-            @include breakpoint(sm) {
+            @include breakpoint(md) {
                 margin-top: unset;
             }
         }
@@ -23,7 +23,7 @@
             margin-top: 0;
         }
 
-        @include breakpoint(sm) {
+        @include breakpoint(md) {
             .level-left {
                 order: 0;
             }
@@ -45,7 +45,7 @@
     .level-right {
         margin-top: 1rem;
 
-        @include breakpoint(sm) {
+        @include breakpoint(md) {
             margin-top: unset;
             margin-left: 1rem;
         }
