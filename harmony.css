@@ -4799,8 +4799,12 @@ figure.image img[src*='/'] + .image-upload label:after {
 .checkbox,
 .radio {
   cursor: pointer;
-  display: inline-block;
-  line-height: 1.25;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
 }
 
@@ -4830,7 +4834,9 @@ input[type=checkbox]:checked:after {
   content: '\f00c';
   font-family: 'Font Awesome 5 Pro';
   font-weight: 400;
-  font-size: .6em;
+  font-size: 1em;
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
 }
 
 .container {

@@ -1,8 +1,8 @@
 .checkbox,
 .radio {
     cursor: pointer;
-    display: inline-block;
-    line-height: 1.25;
+    display: inline-flex;
+    align-items: center;
     position: relative;
 }
 
@@ -28,8 +28,8 @@ input[type=checkbox] {
         &:after {
             content: '\f00c';
             @include fontawesome(regular);
-
-            font-size: .6em;
+            font-size: 1em;
+            transform: scale(.6);
         }
     }
 }
