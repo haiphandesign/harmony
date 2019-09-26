@@ -1,5 +1,12 @@
 // BREAKPOINTS
 
+//// SCREEN SIZE
+$viewport-xs: 575px;
+$viewport-sm: 576px;
+$viewport-md: 768px;
+$viewport-lg: 992px;
+$viewport-xl: 1200px;
+
 @mixin breakpoint($class) {
     @if $class==xs {
         @media (max-width: $viewport-xs) {
