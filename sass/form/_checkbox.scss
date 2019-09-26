@@ -1,7 +1,15 @@
+.checkbox,
+.radio {
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.25;
+    position: relative;
+}
+
 input[type=checkbox] {
     -webkit-appearance: none;
 
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
 

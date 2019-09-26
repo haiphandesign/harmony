@@ -4796,11 +4796,19 @@ figure.image img[src*='/'] + .image-upload label:after {
   pointer-events: none;
 }
 
+.checkbox,
+.radio {
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.25;
+  position: relative;
+}
+
 input[type=checkbox] {
   -webkit-appearance: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
