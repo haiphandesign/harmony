@@ -24,12 +24,16 @@ input[type=checkbox] {
     @include border;
     @include radius;
 
+    &:after {
+        content: '';
+        @include fontawesome(regular);
+        font-size: 1em;
+        transform: scale(.6);
+    }
+
     &:checked {
         &:after {
             content: '\f00c';
-            @include fontawesome(regular);
-            font-size: 1em;
-            transform: scale(.6);
         }
     }
 }

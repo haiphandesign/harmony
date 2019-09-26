@@ -4830,13 +4830,17 @@ input[type=checkbox] {
   border-radius: var(--border-radius);
 }
 
-input[type=checkbox]:checked:after {
-  content: '\f00c';
+input[type=checkbox]:after {
+  content: '';
   font-family: 'Font Awesome 5 Pro';
   font-weight: 400;
   font-size: 1em;
   -webkit-transform: scale(0.6);
           transform: scale(0.6);
+}
+
+input[type=checkbox]:checked:after {
+  content: '\f00c';
 }
 
 .container {
