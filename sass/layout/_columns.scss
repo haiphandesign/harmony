@@ -27,45 +27,17 @@
         width: auto;
     }
 
-    &.is-1 {
+    &.is-12,
+    &.is-full {
         @include breakpoint(sm) {
             flex: none;
-            width: calc(100% / 12 * 1);
+            width: 100%;
         }
 
         &-md {
             @include breakpoint(md) {
                 flex: none;
-                width: calc(100% / 12 * 1);
-            }
-        }
-
-        &-lg {
-            @include breakpoint(lg) {
-                flex: none;
-                width: calc(100% / 12 * 1);
-            }
-        }
-
-        &-xl {
-            @include breakpoint(xl) {
-                flex: none;
-                width: calc(100% / 12 * 1);
-            }
-        }
-
-    }
-
-    &.is-2 {
-        @include breakpoint(sm) {
-            flex: none;
-            width: calc(100% / 12 * 2);
-        }
-
-        &-md {
-            @include breakpoint(md) {
-                flex: none;
-                width: calc(100% / 12 * 2);
+                width: 100%;
             }
         }
 
@@ -73,29 +45,28 @@
         &-lg {
             @include breakpoint(lg) {
                 flex: none;
-                width: calc(100% / 12 * 2);
+                width: 100%;
             }
         }
 
         &-xl {
             @include breakpoint(xl) {
                 flex: none;
-                width: calc(100% / 12 * 2);
+                width: 100%;
             }
         }
     }
 
-    &.is-3,
-    &.is-one-quarter {
+    &.is-11 {
         @include breakpoint(sm) {
             flex: none;
-            width: calc(100% / 12 * 3);
+            width: calc(100% / 12 * 11);
         }
 
         &-md {
             @include breakpoint(md) {
                 flex: none;
-                width: calc(100% / 12 * 3);
+                width: calc(100% / 12 * 11);
             }
         }
 
@@ -103,29 +74,28 @@
         &-lg {
             @include breakpoint(lg) {
                 flex: none;
-                width: calc(100% / 12 * 3);
+                width: calc(100% / 12 * 11);
             }
         }
 
         &-xl {
             @include breakpoint(xl) {
                 flex: none;
-                width: calc(100% / 12 * 3);
+                width: calc(100% / 12 * 11);
             }
         }
     }
 
-    &.is-4,
-    &.is-one-third {
+    &.is-10 {
         @include breakpoint(sm) {
             flex: none;
-            width: calc(100% / 12 * 4);
+            width: calc(100% / 12 * 10);
         }
 
         &-md {
             @include breakpoint(md) {
                 flex: none;
-                width: calc(100% / 12 * 4);
+                width: calc(100% / 12 * 10);
             }
         }
 
@@ -133,132 +103,14 @@
         &-lg {
             @include breakpoint(lg) {
                 flex: none;
-                width: calc(100% / 12 * 4);
+                width: calc(100% / 12 * 10);
             }
         }
 
         &-xl {
             @include breakpoint(xl) {
                 flex: none;
-                width: calc(100% / 12 * 4);
-            }
-        }
-    }
-
-    &.is-5 {
-        @include breakpoint(sm) {
-            flex: none;
-            width: calc(100% / 12 * 5);
-        }
-
-        &-md {
-            @include breakpoint(md) {
-                flex: none;
-                width: calc(100% / 12 * 5);
-            }
-        }
-
-
-        &-lg {
-            @include breakpoint(lg) {
-                flex: none;
-                width: calc(100% / 12 * 5);
-            }
-        }
-
-        &-xl {
-            @include breakpoint(xl) {
-                flex: none;
-                width: calc(100% / 12 * 5);
-            }
-        }
-    }
-
-    &.is-6,
-    &.is-half {
-        @include breakpoint(sm) {
-            flex: none;
-            width: calc(100% / 12 * 6);
-        }
-
-        &-md {
-            @include breakpoint(md) {
-                flex: none;
-                width: calc(100% / 12 * 6);
-            }
-        }
-
-
-        &-lg {
-            @include breakpoint(lg) {
-                flex: none;
-                width: calc(100% / 12 * 6);
-            }
-        }
-
-        &-xl {
-            @include breakpoint(xl) {
-                flex: none;
-                width: calc(100% / 12 * 6);
-            }
-        }
-    }
-
-    &.is-7 {
-        @include breakpoint(sm) {
-            flex: none;
-            width: calc(100% / 12 * 7);
-        }
-
-        &-md {
-            @include breakpoint(md) {
-                flex: none;
-                width: calc(100% / 12 * 7);
-            }
-        }
-
-
-        &-lg {
-            @include breakpoint(lg) {
-                flex: none;
-                width: calc(100% / 12 * 7);
-            }
-        }
-
-        &-xl {
-            @include breakpoint(xl) {
-                flex: none;
-                width: calc(100% / 12 * 7);
-            }
-        }
-    }
-
-    &.is-8,
-    &.is-two-thirds {
-        @include breakpoint(sm) {
-            flex: none;
-            width: calc(100% / 12 * 8);
-        }
-
-        &-md {
-            @include breakpoint(md) {
-                flex: none;
-                width: calc(100% / 12 * 8);
-            }
-        }
-
-
-        &-lg {
-            @include breakpoint(lg) {
-                flex: none;
-                width: calc(100% / 12 * 8);
-            }
-        }
-
-        &-xl {
-            @include breakpoint(xl) {
-                flex: none;
-                width: calc(100% / 12 * 8);
+                width: calc(100% / 12 * 10);
             }
         }
     }
@@ -293,16 +145,17 @@
         }
     }
 
-    &.is-10 {
+    &.is-8,
+    &.is-two-thirds {
         @include breakpoint(sm) {
             flex: none;
-            width: calc(100% / 12 * 10);
+            width: calc(100% / 12 * 8);
         }
 
         &-md {
             @include breakpoint(md) {
                 flex: none;
-                width: calc(100% / 12 * 10);
+                width: calc(100% / 12 * 8);
             }
         }
 
@@ -310,28 +163,28 @@
         &-lg {
             @include breakpoint(lg) {
                 flex: none;
-                width: calc(100% / 12 * 10);
+                width: calc(100% / 12 * 8);
             }
         }
 
         &-xl {
             @include breakpoint(xl) {
                 flex: none;
-                width: calc(100% / 12 * 10);
+                width: calc(100% / 12 * 8);
             }
         }
     }
 
-    &.is-11 {
+    &.is-7 {
         @include breakpoint(sm) {
             flex: none;
-            width: calc(100% / 12 * 11);
+            width: calc(100% / 12 * 7);
         }
 
         &-md {
             @include breakpoint(md) {
                 flex: none;
-                width: calc(100% / 12 * 11);
+                width: calc(100% / 12 * 7);
             }
         }
 
@@ -339,29 +192,29 @@
         &-lg {
             @include breakpoint(lg) {
                 flex: none;
-                width: calc(100% / 12 * 11);
+                width: calc(100% / 12 * 7);
             }
         }
 
         &-xl {
             @include breakpoint(xl) {
                 flex: none;
-                width: calc(100% / 12 * 11);
+                width: calc(100% / 12 * 7);
             }
         }
     }
 
-    &.is-12,
-    &.is-full {
+    &.is-6,
+    &.is-half {
         @include breakpoint(sm) {
             flex: none;
-            width: 100%;
+            width: calc(100% / 12 * 6);
         }
 
         &-md {
             @include breakpoint(md) {
                 flex: none;
-                width: 100%;
+                width: calc(100% / 12 * 6);
             }
         }
 
@@ -369,15 +222,163 @@
         &-lg {
             @include breakpoint(lg) {
                 flex: none;
-                width: 100%;
+                width: calc(100% / 12 * 6);
             }
         }
 
         &-xl {
             @include breakpoint(xl) {
                 flex: none;
-                width: 100%;
+                width: calc(100% / 12 * 6);
             }
         }
     }
+
+    &.is-5 {
+        @include breakpoint(sm) {
+            flex: none;
+            width: calc(100% / 12 * 5);
+        }
+
+        &-md {
+            @include breakpoint(md) {
+                flex: none;
+                width: calc(100% / 12 * 5);
+            }
+        }
+
+
+        &-lg {
+            @include breakpoint(lg) {
+                flex: none;
+                width: calc(100% / 12 * 5);
+            }
+        }
+
+        &-xl {
+            @include breakpoint(xl) {
+                flex: none;
+                width: calc(100% / 12 * 5);
+            }
+        }
+    }
+
+    &.is-4,
+    &.is-one-third {
+        @include breakpoint(sm) {
+            flex: none;
+            width: calc(100% / 12 * 4);
+        }
+
+        &-md {
+            @include breakpoint(md) {
+                flex: none;
+                width: calc(100% / 12 * 4);
+            }
+        }
+
+
+        &-lg {
+            @include breakpoint(lg) {
+                flex: none;
+                width: calc(100% / 12 * 4);
+            }
+        }
+
+        &-xl {
+            @include breakpoint(xl) {
+                flex: none;
+                width: calc(100% / 12 * 4);
+            }
+        }
+    }
+
+    &.is-3,
+    &.is-one-quarter {
+        @include breakpoint(sm) {
+            flex: none;
+            width: calc(100% / 12 * 3);
+        }
+
+        &-md {
+            @include breakpoint(md) {
+                flex: none;
+                width: calc(100% / 12 * 3);
+            }
+        }
+
+
+        &-lg {
+            @include breakpoint(lg) {
+                flex: none;
+                width: calc(100% / 12 * 3);
+            }
+        }
+
+        &-xl {
+            @include breakpoint(xl) {
+                flex: none;
+                width: calc(100% / 12 * 3);
+            }
+        }
+    }
+
+    &.is-2 {
+        @include breakpoint(sm) {
+            flex: none;
+            width: calc(100% / 12 * 2);
+        }
+
+        &-md {
+            @include breakpoint(md) {
+                flex: none;
+                width: calc(100% / 12 * 2);
+            }
+        }
+
+
+        &-lg {
+            @include breakpoint(lg) {
+                flex: none;
+                width: calc(100% / 12 * 2);
+            }
+        }
+
+        &-xl {
+            @include breakpoint(xl) {
+                flex: none;
+                width: calc(100% / 12 * 2);
+            }
+        }
+    }
+
+    &.is-1 {
+        @include breakpoint(sm) {
+            flex: none;
+            width: calc(100% / 12 * 1);
+        }
+
+        &-md {
+            @include breakpoint(md) {
+                flex: none;
+                width: calc(100% / 12 * 1);
+            }
+        }
+
+        &-lg {
+            @include breakpoint(lg) {
+                flex: none;
+                width: calc(100% / 12 * 1);
+            }
+        }
+
+        &-xl {
+            @include breakpoint(xl) {
+                flex: none;
+                width: calc(100% / 12 * 1);
+            }
+        }
+
+    }
+
 }
