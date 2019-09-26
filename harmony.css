@@ -4808,7 +4808,7 @@ figure.image img[src*='/'] + .image-upload label:after {
   position: relative;
 }
 
-input[type=checkbox] {
+input[type='checkbox'] {
   -webkit-appearance: none;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -4821,7 +4821,7 @@ input[type=checkbox] {
           justify-content: center;
   width: 1em;
   height: 1em;
-  margin: 0 .25em;
+  margin: 0 0.25em;
   padding: 0;
   background-color: var(--white);
   border-color: var(--border-color);
@@ -4830,17 +4830,18 @@ input[type=checkbox] {
   border-radius: var(--border-radius);
 }
 
-input[type=checkbox]:after {
-  content: '';
+input[type='checkbox']:after {
+  content: '\f00c';
   font-family: 'Font Awesome 5 Pro';
   font-weight: 400;
   font-size: 1em;
   -webkit-transform: scale(0.6);
           transform: scale(0.6);
+  color: transparent;
 }
 
-input[type=checkbox]:checked:after {
-  content: '\f00c';
+input[type='checkbox']:checked:after {
+  color: inherit;
 }
 
 .container {
