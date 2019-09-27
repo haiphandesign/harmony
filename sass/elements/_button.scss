@@ -21,6 +21,7 @@
     font-size: inherit;
     color: var(--black);
 
+    outline: none;
     user-select: none;
     cursor: pointer;
 
@@ -37,7 +38,7 @@
     }
 
     &.is-small {
-        font-size: 0.75rem;
+        font-size: var(--font-size-7);
     }
 
     &.is-normal {
@@ -322,7 +323,7 @@
 
     &.are-small {
         >.button {
-            font-size: 0.75rem;
+            font-size: var(--font-size-7);
         }
     }
 
