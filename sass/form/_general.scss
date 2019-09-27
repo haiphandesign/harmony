@@ -30,7 +30,7 @@
     }
 
     &.is-required {
-        label {
+        .label {
             &:after {
                 content: ' *';
                 color: var(--red);
