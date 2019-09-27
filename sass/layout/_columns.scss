@@ -1,12 +1,16 @@
 .columns {
     display: flex;
     width: calc(100% + var(--column-gap));
-    margin: calc(0px - (var(--column-gap) / 2));
+    margin: 0 calc(0px - (var(--column-gap) / 2));
 
     &:not(.is-xs) {
         @include breakpoint(xs) {
             flex-wrap: wrap;
         }
+    }
+
+    +.columns {
+        margin-top: var(--column-gap);
     }
 }
 
@@ -15,7 +19,7 @@
     flex-basis: 0;
     flex-grow: 1;
     flex-shrink: 1;
-    padding: calc(var(--column-gap) / 2);
+    padding: 0 calc(var(--column-gap) / 2);
 
     @include breakpoint(xs) {
         flex: none;

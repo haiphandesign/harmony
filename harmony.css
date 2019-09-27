@@ -4937,7 +4937,7 @@ input[type='checkbox']:checked:after {
   display: -ms-flexbox;
   display: flex;
   width: calc(100% + var(--column-gap));
-  margin: calc(0px - (var(--column-gap) / 2));
+  margin: 0 calc(0px - (var(--column-gap) / 2));
 }
 
 @media (max-width: 575px) {
@@ -4945,6 +4945,10 @@ input[type='checkbox']:checked:after {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+}
+
+.columns + .columns {
+  margin-top: var(--column-gap);
 }
 
 .column {
@@ -4956,7 +4960,7 @@ input[type='checkbox']:checked:after {
           flex-grow: 1;
   -ms-flex-negative: 1;
       flex-shrink: 1;
-  padding: calc(var(--column-gap) / 2);
+  padding: 0 calc(var(--column-gap) / 2);
 }
 
 @media (max-width: 575px) {
