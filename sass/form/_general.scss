@@ -29,9 +29,13 @@
         justify-content: flex-start;
     }
 
-    &:after {
-        content: ' *';
-        color: var(--red);
+    &.is-required {
+        label {
+            &:after {
+                content: ' *';
+                color: var(--red);
+            }
+        }
     }
 }
 

@@ -4233,7 +4233,7 @@ img[src=''] {
           justify-content: flex-start;
 }
 
-.field:after {
+.field.is-required label:after {
   content: ' *';
   color: var(--red);
 }
