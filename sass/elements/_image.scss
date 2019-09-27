@@ -91,10 +91,10 @@ img {
     }
 
     &.is-rounded {
-        border-radius: var(--border-radius);
+        border-radius: 50%;
 
         img {
-            border-radius: var(--border-radius);
+            border-radius: 50%;
         }
     }
 

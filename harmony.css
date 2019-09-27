@@ -1838,11 +1838,11 @@ img[src=''] {
 }
 
 .image.is-rounded {
-  border-radius: var(--border-radius);
+  border-radius: 50%;
 }
 
 .image.is-rounded img {
-  border-radius: var(--border-radius);
+  border-radius: 50%;
 }
 
 .image.has-placeholder {
