@@ -1050,14 +1050,13 @@ a {
 }
 
 .has-paragraphs ul li:before {
-  content: "\25A0";
-  vertical-align: text-top;
-  font-size: .75em;
-  color: var(--darkgray);
+  content: '•';
   font-weight: bold;
   display: inline-block;
   width: 1.5em;
-  margin-left: -1.5em;
+  margin-left: -.5em;
+  opacity: .5;
+  line-height: 0;
 }
 
 .has-paragraphs .fa,
@@ -1958,14 +1957,13 @@ img[src=''] {
 }
 
 .notification ul li:before {
-  content: "\25A0";
-  vertical-align: text-top;
-  font-size: .75em;
-  color: var(--darkgray);
+  content: '•';
   font-weight: bold;
   display: inline-block;
   width: 1.5em;
-  margin-left: -1.5em;
+  margin-left: -.5em;
+  opacity: .5;
+  line-height: 0;
 }
 
 .notification .fa,
@@ -2646,14 +2644,13 @@ img[src=''] {
 }
 
 .message .message-body ul li:before {
-  content: "\25A0";
-  vertical-align: text-top;
-  font-size: .75em;
-  color: var(--darkgray);
+  content: '•';
   font-weight: bold;
   display: inline-block;
   width: 1.5em;
-  margin-left: -1.5em;
+  margin-left: -.5em;
+  opacity: .5;
+  line-height: 0;
 }
 
 .message .message-body .fa,
