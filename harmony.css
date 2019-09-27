@@ -4233,6 +4233,11 @@ img[src=''] {
           justify-content: flex-start;
 }
 
+.field:after {
+  content: ' *';
+  color: var(--red);
+}
+
 .label {
   color: #363636;
   display: block;
