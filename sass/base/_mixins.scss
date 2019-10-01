@@ -118,6 +118,10 @@ $viewport-xl: 1408px;
 
     a {
         border-bottom: 1px solid currentColor;
+
+        &:hover {
+            color: var(--brandColor);
+        }
     }
 
     ul {

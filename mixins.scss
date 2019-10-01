@@ -3,9 +3,9 @@
 //// SCREEN SIZE
 $viewport-xs: 575px;
 $viewport-sm: 576px;
-$viewport-md: 768px;
-$viewport-lg: 992px;
-$viewport-xl: 1200px;
+$viewport-md: 769px;
+$viewport-lg: 1024px;
+$viewport-xl: 1408px;
 
 @mixin breakpoint($class) {
     @if $class==xs {
@@ -118,6 +118,10 @@ $viewport-xl: 1200px;
 
     a {
         border-bottom: 1px solid currentColor;
+
+        &:hover {
+            color: var(--brandColor);
+        }
     }
 
     ul {
@@ -125,14 +129,13 @@ $viewport-xl: 1200px;
 
         li {
             &:before {
-                content: "\25A0";
-                vertical-align: text-top;
-                font-size: .75em;
-                color: var(--darkgray);
+                content: '•';
                 font-weight: bold;
                 display: inline-block;
                 width: 1.5em;
-                margin-left: -1.5em;
+                margin-left: -.5em;
+                opacity: .5;
+                line-height: 0;
             }
         }
     }

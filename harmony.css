@@ -192,11 +192,13 @@ table {
   --font-size-5: 1.25rem;
   --font-size-6: 1rem;
   --font-size-7: .75rem;
+  --font-weight-thin: 300;
   --font-weight-light: 300;
   --font-weight-normal: 400;
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
+  --brandColor: var(--blue);
   --column-gap: 1rem;
   --navbar-background: var(--white);
   --navbar-height: 6rem;
@@ -1045,6 +1047,10 @@ a {
   border-bottom: 1px solid currentColor;
 }
 
+.has-paragraphs a:hover {
+  color: var(--brandColor);
+}
+
 .has-paragraphs ul {
   padding-left: 1.5em;
 }
@@ -1116,48 +1122,63 @@ a {
 }
 
 h1,
+.h1,
 h2,
+.h2,
 h3,
+.h3,
 h4,
+.h4,
 h5,
-h6 {
-  font-weight: var(--font-weight-bold);
+.h5,
+h6,
+.h6 {
+  font-weight: var(--font-weight-semibold);
   line-height: 1.25;
 }
 
-h1 {
+h1,
+.h1 {
   font-size: var(--font-size-1);
 }
 
-h2 {
+h2,
+.h2 {
   font-size: var(--font-size-2);
 }
 
-h3 {
+h3,
+.h3 {
   font-size: var(--font-size-3);
 }
 
-h4 {
+h4,
+.h4 {
   font-size: var(--font-size-4);
 }
 
-h5 {
+h5,
+.h5 {
   font-size: var(--font-size-5);
 }
 
-h6 {
+h6,
+.h6 {
   font-size: var(--font-size-6);
 }
 
 hr {
+  display: block;
+  clear: both;
   margin: 1rem 0;
   border: 1px solid currentColor;
   opacity: .75;
   border-width: 1px 0 0 0;
 }
 
-strong {
-  font-weight: var(--font-weight-bold);
+strong,
+.strong {
+  font-weight: var(--font-weight-semibold);
 }
 
 .box {
@@ -1952,6 +1973,10 @@ img[src=''] {
   border-bottom: 1px solid currentColor;
 }
 
+.notification a:hover {
+  color: var(--brandColor);
+}
+
 .notification ul {
   padding-left: 1.5em;
 }
@@ -2637,6 +2662,10 @@ img[src=''] {
 
 .message .message-body a {
   border-bottom: 1px solid currentColor;
+}
+
+.message .message-body a:hover {
+  color: var(--brandColor);
 }
 
 .message .message-body ul {
