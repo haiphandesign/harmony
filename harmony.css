@@ -198,7 +198,7 @@ table {
   --font-weight-medium: 500;
   --font-weight-semibold: 600;
   --font-weight-bold: 700;
-  --brandColor: var(--blue);
+  --primary-color: var(--blue);
   --column-gap: 1rem;
   --navbar-background: var(--white);
   --navbar-height: 6rem;
@@ -1074,7 +1074,7 @@ a {
 }
 
 .is-link:hover {
-  color: var(--primaryColor);
+  color: var(--primary-color);
 }
 
 .has-text-smallcaps {
