@@ -205,7 +205,7 @@ table {
   --navbar-height-mobile: 4rem;
   --navbar-height-onscroll: 4rem;
   --navbar-height-mobile-onscroll: 4rem;
-  --navbar-link-hover: var(--blue);
+  --navbar-link-hover: var(--primary-color);
 }
 
 @-webkit-keyframes placeHolderShimmer {
