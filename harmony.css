@@ -1048,7 +1048,7 @@ a {
 }
 
 .has-paragraphs a:hover {
-  color: var(--brandColor);
+  color: var(--primary-color);
 }
 
 .has-paragraphs ul {
@@ -1974,7 +1974,7 @@ img[src=''] {
 }
 
 .notification a:hover {
-  color: var(--brandColor);
+  color: var(--primary-color);
 }
 
 .notification ul {
@@ -2665,7 +2665,7 @@ img[src=''] {
 }
 
 .message .message-body a:hover {
-  color: var(--brandColor);
+  color: var(--primary-color);
 }
 
 .message .message-body ul {
