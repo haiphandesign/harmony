@@ -1,18 +1,3 @@
-@mixin box {
-    position: relative;
-
-    background-color: var(--white);
-
-    @include border;
-    @include radius;
-    // @include shadow;
-
-    .box-title {
-        // @include border(bottom);
-        margin-bottom: 0;
-    }
-}
-
 .box {
     @include box;
 }

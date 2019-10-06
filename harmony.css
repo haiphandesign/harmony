@@ -1060,8 +1060,8 @@ a {
   font-weight: bold;
   display: inline-block;
   width: 1.5em;
-  margin-left: -.5em;
-  opacity: .5;
+  margin-left: -0.5em;
+  opacity: 0.5;
   line-height: 0;
 }
 
@@ -1099,10 +1099,10 @@ a {
           animation-name: placeHolderShimmer;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  background-color: var(--lightgray);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, var(--lightgray)), color-stop(50%, var(--gray)), color-stop(90%, var(--lightgray)));
-  background-image: linear-gradient(to right, var(--lightgray) 10%, var(--gray) 50%, var(--lightgray) 90%);
-  background-size: 100vw 50px;
+  background-color: var(--lightgray) !important;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, var(--lightgray)), color-stop(50%, var(--gray)), color-stop(90%, var(--lightgray))) !important;
+  background-image: linear-gradient(to right, var(--lightgray) 10%, var(--gray) 50%, var(--lightgray) 90%) !important;
+  background-size: 100vw 50px !important;
   -webkit-transform: scaleY(0.8);
           transform: scaleY(0.8);
   -moz-user-select: none;
@@ -1901,10 +1901,10 @@ img[src=''] {
           animation-name: placeHolderShimmer;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  background-color: var(--lightgray);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, var(--lightgray)), color-stop(50%, var(--gray)), color-stop(90%, var(--lightgray)));
-  background-image: linear-gradient(to right, var(--lightgray) 10%, var(--gray) 50%, var(--lightgray) 90%);
-  background-size: 100vw 50px;
+  background-color: var(--lightgray) !important;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, var(--lightgray)), color-stop(50%, var(--gray)), color-stop(90%, var(--lightgray))) !important;
+  background-image: linear-gradient(to right, var(--lightgray) 10%, var(--gray) 50%, var(--lightgray) 90%) !important;
+  background-size: 100vw 50px !important;
   -webkit-transform: scaleY(1);
           transform: scaleY(1);
   border: none;
@@ -1986,8 +1986,8 @@ img[src=''] {
   font-weight: bold;
   display: inline-block;
   width: 1.5em;
-  margin-left: -.5em;
-  opacity: .5;
+  margin-left: -0.5em;
+  opacity: 0.5;
   line-height: 0;
 }
 
@@ -2118,10 +2118,10 @@ img[src=''] {
           animation-name: placeHolderShimmer;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
-  background-color: var(--lightgray);
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, var(--lightgray)), color-stop(50%, var(--gray)), color-stop(90%, var(--lightgray)));
-  background-image: linear-gradient(to right, var(--lightgray) 10%, var(--gray) 50%, var(--lightgray) 90%);
-  background-size: 100vw 50px;
+  background-color: var(--lightgray) !important;
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, var(--lightgray)), color-stop(50%, var(--gray)), color-stop(90%, var(--lightgray))) !important;
+  background-image: linear-gradient(to right, var(--lightgray) 10%, var(--gray) 50%, var(--lightgray) 90%) !important;
+  background-size: 100vw 50px !important;
   width: 100%;
 }
 
@@ -2677,8 +2677,8 @@ img[src=''] {
   font-weight: bold;
   display: inline-block;
   width: 1.5em;
-  margin-left: -.5em;
-  opacity: .5;
+  margin-left: -0.5em;
+  opacity: 0.5;
   line-height: 0;
 }
 
