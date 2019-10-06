@@ -83,7 +83,8 @@
 }
 
 .help {
-    display: block;
+    display: inline-block;
+    clear: both;
     font-size: var(--font-size-7);
     margin-top: .5rem;
     color: var(--darkgray);
