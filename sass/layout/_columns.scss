@@ -26,6 +26,14 @@
         width: 100%;
     }
 
+    +.columns {
+        margin-top: var(--column-gap);
+
+        @include breakpoint(sm) {
+            margin-top: 0;
+        }
+    }
+
     &.is-narrow {
         flex: none;
         width: auto;
