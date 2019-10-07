@@ -3962,6 +3962,7 @@ img[src=''] {
   width: 100%;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  margin-bottom: -1px;
 }
 
 .tabs li {
@@ -3974,7 +3975,6 @@ img[src=''] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: -1px;
   border-color: var(--border-color);
   border-style: solid;
   border-bottom-width: var(--border-width);
