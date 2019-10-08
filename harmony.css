@@ -1355,7 +1355,7 @@ strong,
   content: '';
   display: block;
   width: 0;
-  height: 1.5em;
+  height: 1.5rem;
 }
 
 .button.is-small {
@@ -3335,7 +3335,7 @@ img[src=''] {
   content: '';
   display: block;
   width: 0;
-  height: 1.5em;
+  height: 1.5rem;
 }
 
 .pagination-previous.is-small,
@@ -3680,7 +3680,7 @@ img[src=''] {
   content: '';
   display: block;
   width: 0;
-  height: 1.5em;
+  height: 1.5rem;
 }
 
 .pagination-list .pagination-link.is-small {
@@ -4355,7 +4355,7 @@ option {
   content: '';
   display: block;
   width: 0;
-  height: 1.5em;
+  height: 1.5rem;
 }
 
 .input.is-small,
