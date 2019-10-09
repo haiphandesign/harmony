@@ -33,11 +33,9 @@
     &.is-scroll {
         .container {
             height: var(--navbar-height-mobile-onscroll);
-            padding-bottom: calc(var(--navbar-height-mobile) - var(--navbar-height-mobile-onscroll));
 
             @include breakpoint(md) {
                 height: var(--navbar-height-onscroll);
-                padding-bottom: calc(var(--navbar-height) - var(--navbar-height-onscroll));
             }
         }
     }
