@@ -4740,7 +4740,7 @@ figure.image img[src*='/'] + .image-upload label {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 2.625rem;
+  height: 2.5rem;
   background-color: rgba(0, 0, 0, 0.65);
 }
 

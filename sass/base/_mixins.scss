@@ -12,23 +12,33 @@ $viewport-xl: 1440px;
 		@media (max-width: $viewport-xs) {
 			@content;
 		}
-	} @else if $class==sm {
+	}
+
+	@else if $class==sm {
 		@media (min-width: $viewport-sm) {
 			@content;
 		}
-	} @else if $class==md {
+	}
+
+	@else if $class==md {
 		@media (min-width: $viewport-md) {
 			@content;
 		}
-	} @else if $class==lg {
+	}
+
+	@else if $class==lg {
 		@media (min-width: $viewport-lg) {
 			@content;
 		}
-	} @else if $class==xl {
+	}
+
+	@else if $class==xl {
 		@media (min-width: $viewport-xl) {
 			@content;
 		}
-	} @else {
+	}
+
+	@else {
 		@warn "Breakpoint mixin supports: xs, sm, md, lg, xl";
 	}
 }
@@ -39,15 +49,23 @@ $viewport-xl: 1440px;
 	@if $class==solid {
 		font-family: 'Font Awesome 5 Pro';
 		font-weight: 900;
-	} @else if $class==regular {
+	}
+
+	@else if $class==regular {
 		font-family: 'Font Awesome 5 Pro';
 		font-weight: 400;
-	} @else if $class==light {
+	}
+
+	@else if $class==light {
 		font-family: 'Font Awesome 5 Pro';
 		font-weight: 300;
-	} @else if $class==brand {
+	}
+
+	@else if $class==brand {
 		font-family: 'Font Awesome 5 Brands';
-	} @else {
+	}
+
+	@else {
 		@warn "FontAwesome come in 4 style: solid, regular, light and brand";
 	}
 }
@@ -69,12 +87,10 @@ $viewport-xl: 1440px;
 	animation-name: placeHolderShimmer;
 	animation-timing-function: linear;
 	background-color: var(--lightgray) !important;
-	background-image: linear-gradient(
-		to right,
-		var(--lightgray) 10%,
-		var(--gray) 50%,
-		var(--lightgray) 90%
-	) !important;
+	background-image: linear-gradient(to right,
+			var(--lightgray) 10%,
+			var(--gray) 50%,
+			var(--lightgray) 90%) !important;
 	background-size: 100vw 50px !important;
 }
 
@@ -95,7 +111,7 @@ $viewport-xl: 1440px;
 	word-break: break-word;
 	hyphens: auto;
 
-	> *:not(:last-child) {
+	>*:not(:last-child) {
 		margin-bottom: 1rem;
 	}
 
@@ -164,15 +180,25 @@ $viewport-xl: 1440px;
 
 	@if $side==top {
 		border-top-width: var(--border-width);
-	} @else if $side==right {
+	}
+
+	@else if $side==right {
 		border-right-width: var(--border-width);
-	} @else if $side==bottom {
+	}
+
+	@else if $side==bottom {
 		border-bottom-width: var(--border-width);
-	} @else if $side==left {
+	}
+
+	@else if $side==left {
 		border-left-width: var(--border-width);
-	} @else if $side==all {
+	}
+
+	@else if $side==all {
 		border-width: var(--border-width);
-	} @else {
+	}
+
+	@else {
 		border-width: var(--border-width);
 	}
 }
