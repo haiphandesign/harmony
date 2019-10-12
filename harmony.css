@@ -4760,7 +4760,7 @@ figure.image img[src*='/'] + .image-upload label:after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 2.625em;
+  height: 2.5rem;
   min-width: 10em;
   vertical-align: bottom;
   position: relative;
@@ -4784,8 +4784,8 @@ figure.image img[src*='/'] + .image-upload label:after {
   border: none;
   height: 100%;
   width: 100%;
-  padding: .5em;
-  padding-right: 2.5em;
+  padding: .5rem;
+  padding-right: 2rem;
 }
 
 .select:after {
