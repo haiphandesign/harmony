@@ -47,8 +47,8 @@
             justify-content: flex-start;
             flex-shrink: 0;
 
-            width: 2.625em;
-            height: 2.625em;
+            width: 2.5em;
+            height: 2.5em;
 
             padding: 0;
 
@@ -56,8 +56,7 @@
             white-space: nowrap;
 
             &:before {
-                font-family: 'Font Awesome 5 Pro';
-                font-weight: 300;
+                @include fontawesome(solid);
 
                 text-align: center;
 
@@ -66,8 +65,8 @@
                 justify-content: center;
                 flex-shrink: 0;
 
-                width: 2.625em;
-                height: 2.625em;
+                width: 2.5em;
+                height: 2.5em;
             }
         }
 
