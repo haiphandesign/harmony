@@ -245,9 +245,6 @@ body {
   font-size: var(--font-size-mobile);
   color: var(--black);
   line-height: var(--line-height);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-stroke-width: 0.2px;
 }
 
 @media (min-width: 1024px) {
@@ -4786,6 +4783,7 @@ figure.image img[src*='/'] + .image-upload label:after {
   width: 100%;
   padding: .5rem;
   padding-right: 2rem;
+  background-color: var(--white);
 }
 
 .select:after {

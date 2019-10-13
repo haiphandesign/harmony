@@ -15,9 +15,9 @@ body {
     font-size: var(--font-size-mobile);
     color: var(--black);
     line-height: var(--line-height);
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-stroke-width: 0.2px;
+    // -webkit-font-smoothing: antialiased;
+    // -moz-osx-font-smoothing: grayscale;
+    // -webkit-text-stroke-width: 0.2px;
 
     @include breakpoint(md) {
         font-size: var(--font-size);
