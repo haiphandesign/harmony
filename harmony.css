@@ -4085,6 +4085,7 @@ img[src=''] {
 
 .tabs.is-toggle li {
   margin-bottom: 0;
+  margin-right: -1px;
   background-color: var(--white);
   border-width: 1px;
 }
