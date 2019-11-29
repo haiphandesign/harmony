@@ -1132,7 +1132,6 @@ h6,
 .h6 {
   font-weight: var(--font-weight-semibold);
   line-height: 1.25;
-  white-space: break-spaces;
 }
 
 h1,
@@ -1163,10 +1162,6 @@ h5,
 h6,
 .h6 {
   font-size: var(--font-size-6);
-}
-
-p {
-  white-space: break-spaces;
 }
 
 hr {
