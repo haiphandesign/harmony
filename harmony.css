@@ -2128,6 +2128,7 @@ img[src=''] {
   background-image: linear-gradient(to right, var(--lightgray) 10%, var(--gray) 50%, var(--lightgray) 90%) !important;
   background-size: 100vw 50px !important;
   width: 100%;
+  color: transparent;
 }
 
 .skeleton:not(.is-bordered) {
@@ -2135,9 +2136,9 @@ img[src=''] {
 }
 
 .skeleton:not(.image) {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 1.25rem;
 }
 
