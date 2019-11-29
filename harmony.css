@@ -2136,9 +2136,9 @@ img[src=''] {
 }
 
 .skeleton:not(.image) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   height: 1.25rem;
 }
 
@@ -2147,7 +2147,7 @@ img[src=''] {
 }
 
 .skeleton:not(:last-of-type) {
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
 @media (min-width: 1024px) {
