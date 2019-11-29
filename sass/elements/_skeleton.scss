@@ -1,15 +1,16 @@
 .skeleton {
     @include shimmer;
 
-
     width: 100%;
+
+    color: transparent;
 
     &:not(.is-bordered) {
         border-radius: 2px;
     }
 
     &:not(.image) {
-        display: inline-flex;
+        display: flex;
         height: 1.25rem;
     }
 
