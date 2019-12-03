@@ -60,8 +60,9 @@
     &.is-disabled,
     &:disabled,
     &[disabled] {
-        opacity: .25 !important;
+        opacity: .25;
         cursor: not-allowed;
+        pointer-events: none;
     }
 
     &.is-white {

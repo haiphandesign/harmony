@@ -1377,8 +1377,9 @@ strong,
 }
 
 .button.is-disabled, .button:disabled, .button[disabled] {
-  opacity: .25 !important;
+  opacity: .25;
   cursor: not-allowed;
+  pointer-events: none;
 }
 
 .button.is-white {
@@ -3378,8 +3379,9 @@ img[src=''] {
 .pagination-next.is-disabled,
 .pagination-next:disabled,
 .pagination-next[disabled] {
-  opacity: .25 !important;
+  opacity: .25;
   cursor: not-allowed;
+  pointer-events: none;
 }
 
 .pagination-previous.is-white,
@@ -3723,8 +3725,9 @@ img[src=''] {
 }
 
 .pagination-list .pagination-link.is-disabled, .pagination-list .pagination-link:disabled, .pagination-list .pagination-link[disabled] {
-  opacity: .25 !important;
+  opacity: .25;
   cursor: not-allowed;
+  pointer-events: none;
 }
 
 .pagination-list .pagination-link.is-white {
@@ -4412,8 +4415,9 @@ option {
 .textarea.is-disabled,
 .textarea:disabled,
 .textarea[disabled] {
-  opacity: .25 !important;
+  opacity: .25;
   cursor: not-allowed;
+  pointer-events: none;
 }
 
 .input.is-white,
