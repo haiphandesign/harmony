@@ -58,12 +58,8 @@
     }
 
     &.is-disabled {
-        opacity: .5 !important;
+        opacity: .25 !important;
         cursor: not-allowed;
-
-        &:hover {
-            border-color: inherit;
-        }
     }
 
     &.is-white {
