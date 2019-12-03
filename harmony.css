@@ -256,6 +256,7 @@ body {
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  white-space: normal;
 }
 
 a {
@@ -1373,6 +1374,15 @@ strong,
 
 .button.is-fullwidth {
   width: 100%;
+}
+
+.button.is-disabled {
+  opacity: .5 !important;
+  cursor: not-allowed;
+}
+
+.button.is-disabled:hover {
+  border-color: inherit;
 }
 
 .button.is-white {
@@ -3368,6 +3378,17 @@ img[src=''] {
   width: 100%;
 }
 
+.pagination-previous.is-disabled,
+.pagination-next.is-disabled {
+  opacity: .5 !important;
+  cursor: not-allowed;
+}
+
+.pagination-previous.is-disabled:hover,
+.pagination-next.is-disabled:hover {
+  border-color: inherit;
+}
+
 .pagination-previous.is-white,
 .pagination-next.is-white {
   background-color: transparent;
@@ -3706,6 +3727,15 @@ img[src=''] {
 
 .pagination-list .pagination-link.is-fullwidth {
   width: 100%;
+}
+
+.pagination-list .pagination-link.is-disabled {
+  opacity: .5 !important;
+  cursor: not-allowed;
+}
+
+.pagination-list .pagination-link.is-disabled:hover {
+  border-color: inherit;
 }
 
 .pagination-list .pagination-link.is-white {
@@ -4387,6 +4417,17 @@ option {
 .input.is-fullwidth,
 .textarea.is-fullwidth {
   width: 100%;
+}
+
+.input.is-disabled,
+.textarea.is-disabled {
+  opacity: .5 !important;
+  cursor: not-allowed;
+}
+
+.input.is-disabled:hover,
+.textarea.is-disabled:hover {
+  border-color: inherit;
 }
 
 .input.is-white,
