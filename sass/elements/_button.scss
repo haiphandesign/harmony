@@ -57,7 +57,9 @@
         width: 100%;
     }
 
-    &.is-disabled {
+    &.is-disabled,
+    &:disabled,
+    &[disabled] {
         opacity: .25 !important;
         cursor: not-allowed;
     }
