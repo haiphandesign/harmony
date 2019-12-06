@@ -247,7 +247,7 @@ body {
   line-height: var(--line-height);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   body {
     font-size: var(--font-size);
   }

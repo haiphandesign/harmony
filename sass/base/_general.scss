@@ -19,7 +19,7 @@ body {
     // -moz-osx-font-smoothing: grayscale;
     // -webkit-text-stroke-width: 0.2px;
 
-    @include breakpoint(md) {
+    @include breakpoint(sm) {
         font-size: var(--font-size);
     }
 }
