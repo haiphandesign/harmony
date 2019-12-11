@@ -4291,6 +4291,10 @@ img[src=''] {
   text-align: left;
 }
 
+.control.is-fullwidth {
+  width: 100%;
+}
+
 .word-count {
   position: absolute;
   right: 0;
