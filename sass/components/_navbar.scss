@@ -65,6 +65,10 @@
     @include breakpoint(md) {
         display: flex;
     }
+
+    .navbar-menu-wrapper {
+        display: flex;
+    }
 }
 
 .navbar-end {

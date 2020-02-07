@@ -264,6 +264,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: inherit;
+}
+
 ::-moz-selection {
   color: var(--white);
   background: var(--blue);
@@ -3025,6 +3029,12 @@ img[src=''] {
     display: -ms-flexbox;
     display: flex;
   }
+}
+
+.navbar-menu .navbar-menu-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .navbar-end {
