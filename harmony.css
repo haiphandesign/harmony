@@ -4305,6 +4305,10 @@ img[src=''] {
   width: 100%;
 }
 
+.control + .control {
+  margin-left: .5rem;
+}
+
 .word-count {
   position: absolute;
   right: 0;

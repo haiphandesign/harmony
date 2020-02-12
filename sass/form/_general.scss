@@ -65,6 +65,10 @@
     &.is-fullwidth {
         width: 100%;
     }
+
+    +.control {
+        margin-left: .5rem;
+    }
 }
 
 .word-count {
