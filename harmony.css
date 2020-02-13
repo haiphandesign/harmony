@@ -1683,6 +1683,11 @@ strong,
   margin-bottom: .25rem;
 }
 
+.buttons > .button.is-fullwidth,
+.buttons > button.is-fullwidth {
+  margin-right: 0;
+}
+
 .buttons > .button:last-child,
 .buttons > button:last-child {
   margin-right: 0;
