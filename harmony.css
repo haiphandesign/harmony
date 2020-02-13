@@ -1680,7 +1680,7 @@ strong,
 .buttons > .button,
 .buttons > button {
   margin-right: .25rem;
-  margin-bottom: .25rem;
+  margin-bottom: .5rem;
 }
 
 .buttons > .button.is-fullwidth,
