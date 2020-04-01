@@ -1381,7 +1381,7 @@ strong,
 }
 
 .button.is-disabled, .button:disabled, .button[disabled] {
-  opacity: .25;
+  opacity: 0.25;
   cursor: not-allowed;
   pointer-events: none;
 }
@@ -1543,8 +1543,8 @@ strong,
 .button.is-loading:after {
   content: '';
   position: absolute;
-  top: calc(50% - .625em);
-  left: calc(50% - .625em);
+  top: calc(50% - 0.625em);
+  left: calc(50% - 0.625em);
   display: block;
   width: 1em;
   height: 1em;
@@ -1605,7 +1605,7 @@ strong,
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  margin-bottom: -.25rem;
+  margin-bottom: -0.25rem;
 }
 
 .buttons.is-nowrap {
@@ -1679,8 +1679,8 @@ strong,
 
 .buttons > .button,
 .buttons > button {
-  margin-right: .25rem;
-  margin-bottom: .5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .buttons > .button.is-fullwidth,
@@ -1704,7 +1704,7 @@ strong,
 }
 
 .buttons + .buttons {
-  margin-top: .25rem;
+  margin-top: 0.5rem;
 }
 
 .delete {
@@ -2169,112 +2169,88 @@ img[src=''] {
   margin-bottom: 0.25rem;
 }
 
-@media (min-width: 1024px) {
-  .skeleton.is-1 {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-    width: calc(100% / 12 * 1);
-  }
+.skeleton.is-1 {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: calc(100% / 12 * 1);
 }
 
-@media (min-width: 1024px) {
-  .skeleton.is-2 {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-    width: calc(100% / 12 * 2);
-  }
+.skeleton.is-2 {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: calc(100% / 12 * 2);
 }
 
-@media (min-width: 1024px) {
-  .skeleton.is-3, .skeleton.is-one-quarter {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-    width: calc(100% / 12 * 3);
-  }
+.skeleton.is-3, .skeleton.is-one-quarter {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: calc(100% / 12 * 3);
 }
 
-@media (min-width: 1024px) {
-  .skeleton.is-4, .skeleton.is-one-third {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-    width: calc(100% / 12 * 4);
-  }
+.skeleton.is-4, .skeleton.is-one-third {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: calc(100% / 12 * 4);
 }
 
-@media (min-width: 1024px) {
-  .skeleton.is-5 {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-    width: calc(100% / 12 * 5);
-  }
+.skeleton.is-5 {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: calc(100% / 12 * 5);
 }
 
-@media (min-width: 1024px) {
-  .skeleton.is-6, .skeleton.is-half {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-    width: calc(100% / 12 * 6);
-  }
+.skeleton.is-6, .skeleton.is-half {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: calc(100% / 12 * 6);
 }
 
-@media (min-width: 1024px) {
-  .skeleton.is-7 {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-    width: calc(100% / 12 * 7);
-  }
+.skeleton.is-7 {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: calc(100% / 12 * 7);
 }
 
-@media (min-width: 1024px) {
-  .skeleton.is-8, .skeleton.is-two-thirds {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-    width: calc(100% / 12 * 8);
-  }
+.skeleton.is-8, .skeleton.is-two-thirds {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: calc(100% / 12 * 8);
 }
 
-@media (min-width: 1024px) {
-  .skeleton.is-9, .skeleton.is-three-quarters {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-    width: calc(100% / 12 * 9);
-  }
+.skeleton.is-9, .skeleton.is-three-quarters {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: calc(100% / 12 * 9);
 }
 
-@media (min-width: 1024px) {
-  .skeleton.is-10 {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-    width: calc(100% / 12 * 10);
-  }
+.skeleton.is-10 {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: calc(100% / 12 * 10);
 }
 
-@media (min-width: 1024px) {
-  .skeleton.is-11 {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-    width: calc(100% / 12 * 11);
-  }
+.skeleton.is-11 {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: calc(100% / 12 * 11);
 }
 
-@media (min-width: 1024px) {
-  .skeleton.is-12, .skeleton.is-full {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
-    width: 100%;
-  }
+.skeleton.is-12, .skeleton.is-full {
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  width: 100%;
 }
 
 .table {
@@ -3399,7 +3375,7 @@ img[src=''] {
 .pagination-next.is-disabled,
 .pagination-next:disabled,
 .pagination-next[disabled] {
-  opacity: .25;
+  opacity: 0.25;
   cursor: not-allowed;
   pointer-events: none;
 }
@@ -3596,8 +3572,8 @@ img[src=''] {
 .pagination-next.is-loading:after {
   content: '';
   position: absolute;
-  top: calc(50% - .625em);
-  left: calc(50% - .625em);
+  top: calc(50% - 0.625em);
+  left: calc(50% - 0.625em);
   display: block;
   width: 1em;
   height: 1em;
@@ -3745,7 +3721,7 @@ img[src=''] {
 }
 
 .pagination-list .pagination-link.is-disabled, .pagination-list .pagination-link:disabled, .pagination-list .pagination-link[disabled] {
-  opacity: .25;
+  opacity: 0.25;
   cursor: not-allowed;
   pointer-events: none;
 }
@@ -3907,8 +3883,8 @@ img[src=''] {
 .pagination-list .pagination-link.is-loading:after {
   content: '';
   position: absolute;
-  top: calc(50% - .625em);
-  left: calc(50% - .625em);
+  top: calc(50% - 0.625em);
+  left: calc(50% - 0.625em);
   display: block;
   width: 1em;
   height: 1em;
@@ -4443,7 +4419,7 @@ option {
 .textarea.is-disabled,
 .textarea:disabled,
 .textarea[disabled] {
-  opacity: .25;
+  opacity: 0.25;
   cursor: not-allowed;
   pointer-events: none;
 }
@@ -4640,8 +4616,8 @@ option {
 .textarea.is-loading:after {
   content: '';
   position: absolute;
-  top: calc(50% - .625em);
-  left: calc(50% - .625em);
+  top: calc(50% - 0.625em);
+  left: calc(50% - 0.625em);
   display: block;
   width: 1em;
   height: 1em;

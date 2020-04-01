@@ -26,92 +26,68 @@
 	}
 
 	&.is-1 {
-		@include breakpoint(md) {
-			flex: none;
-			width: calc(100% / 12 * 1);
-		}
+		flex: none;
+		width: calc(100% / 12 * 1);
 	}
 
 	&.is-2 {
-		@include breakpoint(md) {
-			flex: none;
-			width: calc(100% / 12 * 2);
-		}
+		flex: none;
+		width: calc(100% / 12 * 2);
 	}
 
 	&.is-3,
 	&.is-one-quarter {
-		@include breakpoint(md) {
-			flex: none;
-			width: calc(100% / 12 * 3);
-		}
+		flex: none;
+		width: calc(100% / 12 * 3);
 	}
 
 	&.is-4,
 	&.is-one-third {
-		@include breakpoint(md) {
-			flex: none;
-			width: calc(100% / 12 * 4);
-		}
+		flex: none;
+		width: calc(100% / 12 * 4);
 	}
 
 	&.is-5 {
-		@include breakpoint(md) {
-			flex: none;
-			width: calc(100% / 12 * 5);
-		}
+		flex: none;
+		width: calc(100% / 12 * 5);
 	}
 
 	&.is-6,
 	&.is-half {
-		@include breakpoint(md) {
-			flex: none;
-			width: calc(100% / 12 * 6);
-		}
+		flex: none;
+		width: calc(100% / 12 * 6);
 	}
 
 	&.is-7 {
-		@include breakpoint(md) {
-			flex: none;
-			width: calc(100% / 12 * 7);
-		}
+		flex: none;
+		width: calc(100% / 12 * 7);
 	}
 
 	&.is-8,
 	&.is-two-thirds {
-		@include breakpoint(md) {
-			flex: none;
-			width: calc(100% / 12 * 8);
-		}
+		flex: none;
+		width: calc(100% / 12 * 8);
 	}
 
 	&.is-9,
 	&.is-three-quarters {
-		@include breakpoint(md) {
-			flex: none;
-			width: calc(100% / 12 * 9);
-		}
+		flex: none;
+		width: calc(100% / 12 * 9);
 	}
 
 	&.is-10 {
-		@include breakpoint(md) {
-			flex: none;
-			width: calc(100% / 12 * 10);
-		}
+		flex: none;
+		width: calc(100% / 12 * 10);
 	}
 
 	&.is-11 {
-		@include breakpoint(md) {
-			flex: none;
-			width: calc(100% / 12 * 11);
-		}
+		flex: none;
+		width: calc(100% / 12 * 11);
 	}
 
 	&.is-12,
 	&.is-full {
-		@include breakpoint(md) {
-			flex: none;
-			width: 100%;
-		}
+		flex: none;
+		width: 100%;
 	}
 }
