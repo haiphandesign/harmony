@@ -1605,7 +1605,6 @@ strong,
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
-  margin-bottom: -0.25rem;
 }
 
 .buttons.is-nowrap {
